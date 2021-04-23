@@ -298,7 +298,7 @@ display: flex;
     margin-bottom: 10px;
   }
 
-.what-we-do .conteiner {
+.what-we-do {
     padding-bottom: 94px;
 }
 
@@ -311,7 +311,7 @@ display: flex;
     margin-bottom: 50px;
 }
 
-.what-we-do .item {
+.what-we-do__item {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
 }
@@ -482,6 +482,7 @@ margin-bottom: 50px;
 
 .contacts-links-block {
     display: flex;
+    align-items: baseline;
 }
 .footer .link {
 font-style: normal;
@@ -767,6 +768,7 @@ transition: transform var(--transformationt-time) var(--cubic-bezier) ;
 width: 100%;
 max-width: 528px;
 min-height: 581px;
+padding: 40px;
 background-color: var(--hero-text-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
@@ -800,8 +802,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .modal-header {
